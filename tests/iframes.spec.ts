@@ -7,5 +7,5 @@ await page.goto("https://ui.vision/demo/webtest/frames/")
 
  await frame1!.fill("[name='mytext1']",'Hello');
 
- await page.waitForTimeout(5000)
+ await page.waitForTimeout(6000)
 })
